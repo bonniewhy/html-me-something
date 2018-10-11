@@ -51,7 +51,8 @@ table {
 /* END CSS RESET! */
 
 body {
-    background-color: dimgray;
+    background-color: #1c1624;
+    background-image: url("images/starrybg02.png");
 }
 
 header {
@@ -62,17 +63,32 @@ header {
 }
 
 article {
-    background-color: whitesmoke;
+    background-color: #c1c7bb;
     margin-bottom: 50px;
-    width: 100%;
+    width: 690px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 h1 {
-    color: firebrick;
+    float: right;
+}
+
+h2 {
+    color: #d3474e;
+    font-family: "Overpass", sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
 }
 
 p {
-    color: dimgray;
+    color: #39343e;
+    font-family: "Overpass", sans-serif;
+    font-size: 13px;
+    line-height: 23px;
+    clear: both;
 }
 
 footer {
@@ -93,8 +109,8 @@ li {
 
 .nav {
     width: 100%;
-    background-color: firebrick;
-    color: whitesmoke;
+    background-color: #d42e02;
+    color: #f8ead4;
     top: 0px;
     position: fixed;
 }
@@ -102,7 +118,9 @@ li {
 .nav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #f8ead4;
+    font-family: "Press Start 2P", sans-serif;
+    text-transform: uppercase;
     text-align: center;
     text-decoration: none;
     width: 20%;
@@ -111,31 +129,40 @@ li {
 }
 
 .nav a:hover {
-    background: cadetblue;
-    color: black;
+    background: #2d2635;
+    color: #c1c7bb;
 }
 
 .gamertags {
     width: 100%;
-    background-color: cadetblue;
-    color: black;
+    background-color: #c1c7bb;
+    color: #2d2635;
 }
 
 .gamertags a {
     float: left;
     display: block;
-    color: black;
-    background-color: cadetblue;
+    color: #2d2635;
+    background-color: #c1c7bb;
+    font-family: "Volkhov", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
     text-align: center;
     text-decoration: none;
+    vertical-align: middle;
     width: 20%;
     height: 30px;
-    padding-top:15px;
+    padding-top:10px;
+    padding-bottom: 10px;
 }
 
 .gamertags a:hover {
-    background-color: whitesmoke;
-    color: black;
+    background-color: #2d2635;
+    color: #c1c7bb;
+}
+
+.gamertags img {
+    vertical-align: middle;
 }
 
 #copyright {
@@ -144,7 +171,7 @@ li {
 }
 
 #copyright p {
-    color: black;
+    color: #c1c7bb;
     clear: left;
     padding-top: 15px;
     float: right;
