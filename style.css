@@ -86,9 +86,10 @@ h2 {
 p {
     color: #39343e;
     font-family: "Overpass", sans-serif;
-    font-size: 13px;
-    line-height: 23px;
+    font-size: 15px;
+    line-height: 25px;
     clear: both;
+    padding-bottom: 25px;
 }
 
 footer {
@@ -100,6 +101,18 @@ footer {
 
 li {
     display: inline;
+}
+
+a {
+    color: #d42e02;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #1c1624;
+    text-decoration: none;
+    font-weight: 700;
 }
 
 #container {
@@ -156,6 +169,24 @@ li {
     padding-bottom: 10px;
 }
 
+.left {
+    float: left;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right {
+    float: right;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
 .gamertags a:hover {
     background-color: #2d2635;
     color: #c1c7bb;
@@ -179,4 +210,21 @@ li {
 
 #empty {
     clear: both;
+}
+
+strong {
+    font-weight: 700;
+    color: #642731;
+}
+
+#play p {
+    display: block;
+    width: 100%;
+    height: 10px;
+    font-family: "Press Start 2P", sans-serif;
+    background-color: #d42e02;
+    color: #c1c7bb;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 15px;
 }
